@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="presupuesto.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">cine certus</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="presupuesto.html">presupuesto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <table>
+        <tr>
+            <td class="titulo">
+                INMOBILIARIA
+            </td>
+            <td class="right">
+                www.certus.edu.pe
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" class="image-full-width">
+                <img src="img/inmobiliaria.png" alt="Inmobiliaria">
+            </td>
+        </tr>
+    </table>
+
+    <table class="center">
+        <tr colspan="2">
+            <td style="text-align:center; font-size: 30px;">PRESENTACION</td>
+        </tr>
+        <tr>
+            <td class="image-container">
+                <div class="image-box">
+                    <a href="https://noticiastrujillo.pe/centenario-anuncia-nueva-urbanizacion-brisas-de-huanchaco/#google_vignette">
+                        <img src="img/redes/tc.webp" class="image" alt="">
+                        <p>centenario anuncia nuevas urbanizaciones "brisas de hunchaco"</p>
+                    </a>
+                </div>
+                <div class="image-box">
+                    <a href="https://www.revistaeconomia.com/grupo-centenario-y-cabify-establece-alianza-comercial-para-promover-movilidad-sostenible/">
+                        <img src="img/redes/conceso.jfif" class="image" alt="">
+                        <p>grupo centenario y cabify establece alianza comercial para promover movilidad sostenible</p>
+                    </a>
+                </div>
+                <div class="image-box">
+                    <a href="https://www.peru-retail.com/nike-inaugura-su-primera-tienda-unite-del-peru-en-centro-comercial-de-lima/">
+                        <img src="img/redes/Unite-Nike.png" class="image" alt="">
+                        <p>nike inagura su nueva tienda concepto "unite" en conocido centro comercial del perú</p>
+                    </a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align:center; font-size: 30px;">PRESUPUESTO</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <td>
+                <img src="img/redes/planos.jfif" width="50%" class="planos-image" alt="">
+            </td>
+            <td style="text-align:right; font-size: larger;">
+
+                <div class="container">
+                    <p style="color: aqua;">VALOR DEL PREDIO <p>
+                    <form id="precio-form">
+                        <label for="distrito">Seleccione el Distrito:</label>
+                        <select id="distrito" name="distrito">
+                            <option value="450">Lima Cercado - 450.00</option>
+                            <option value="550">La Victoria - 550.00</option>
+                            <option value="650">Lince - 650.00</option>
+                            <option value="670">Jesús María - 670.00</option>
+                            <option value="750">Pueblo Libre - 750.00</option>
+                            <option value="100">Villa el Salvador - 100.00</option>
+                        </select>
+            
+                        <label for="largo">Largo (m):</label>
+                        <input type="number" id="largo" name="largo" required>
+            
+                        <label for="ancho">Ancho (m):</label>
+                        <input type="number" id="ancho" name="ancho" required>
+                                            
+                    <div id="resultados">
+                        <p id="area">Área: </p>
+                        <p id="valorS">Valor en S/: </p>
+                        <p id="valorUS">Valor en US/: </p>
+                    </div>
+            
+                        <button type="button" onclick="calcular()">Calcular</button>
+                        <button type="button" onclick="limpiar()">Limpiar</button>
+                    </form>
+                </div>
+                <script src="presupuesto.js"></script>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
+
+
+
+

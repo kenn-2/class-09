@@ -1,0 +1,126 @@
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 20px;
+}
+
+nav .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select, button {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.titulo {
+    text-align: left;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.right {
+    text-align: right;
+    font-size: 25px;
+}
+
+.image-full-width img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre las imágenes */
+}
+
+.image-box {
+    text-align: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.image {
+    max-width: 300px; /* Ajustar según tus necesidades */
+    height: auto;
+}
+
+.planos-image {
+    width: 100%;
+    height: auto;
+}
